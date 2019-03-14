@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="btnStyle_normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="normal_et">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textColorHint">#c0c0c0</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/edit_back</item>
+    </style>
+
+
+    <style name="label_txt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#8e44ad</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:background">#fff</item>
+        <item name="android:translationZ">1sp</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="input_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">90dp</item>
+    </style>
+
+    <style name="text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">#818080</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="wrap_cotent">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+
+    <style name="msg_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:textColor">#f00</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:layout_marginTop">70dp</item>
+    </style>
+
+    <style name="gender_icon">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="gender_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#c0c0c0</item>
+    </style>
+
+    <style name="article_img">
+        <item name="android:layout_width">105dp</item>
+        <item name="android:layout_height">105dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="article_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">105dp</item>
+        <item name="android:textColor">#424242</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+    <style name="article_name">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:gravity">end|center</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_marginLeft">105dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:textColor">#424242</item>
+    </style>
+
+    <style name="article_icon">
+        <item name="android:layout_width">15dp</item>
+        <item name="android:layout_height">15dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="article_icon_text">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#424242</item>
+    </style>
+
+    <style name="article_regdate_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginTop">85dp</item>
+        <item name="android:gravity">end|center</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textColor">#424242</item>
+    </style>
+
+    <style name="header_img">
+        <item name="android:layout_width">130dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="header_menu">
+        <item name="android:layout_width">14dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/ic_ellipsis_v</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">340dp</item>
+    </style>
+
+    <style name="detail_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="detail_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">#424242</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="liner_detail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="content_img">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="content_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">300dp</item>
+        <item name="android:background">#f00</item>
+    </style>detail_linear
+
+    <style name="detail_linear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="scrollView_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+</resources>

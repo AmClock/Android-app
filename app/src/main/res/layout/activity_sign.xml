@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <include
+        android:id="@+id/logotmp"
+        layout="@layout/logotmp" />
+
+    <ScrollView
+        style="@style/wrap_cotent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logotmp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout style="@style/input_wrap">
+
+                <TextView
+                    style="@style/label_txt"
+                    android:text="ID" />
+
+                <EditText
+                    android:id="@+id/idEt"
+                    style="@style/normal_et"
+                    android:hint="Id"
+                    android:inputType="text" />
+
+                <TextView
+                    style="@style/msg_text"
+                    android:text="아이디를 입력해주세요" />
+            </FrameLayout>
+
+
+            <FrameLayout style="@style/input_wrap">
+
+                <TextView
+                    style="@style/label_txt"
+                    android:text="Name" />
+
+                <EditText
+                    android:id="@+id/nameEt"
+                    style="@style/normal_et"
+                    android:hint="Name"
+                    android:inputType="text" />
+
+                <TextView
+                    style="@style/msg_text"
+                    android:text="아이디를 입력해주세요" />
+
+
+            </FrameLayout>
+
+
+            <FrameLayout style="@style/input_wrap">
+
+                <TextView
+                    style="@style/label_txt"
+                    android:text="Password" />
+
+                <EditText
+                    android:id="@+id/pwdEt"
+                    style="@style/normal_et"
+                    android:hint="Password"
+                    android:inputType="textPassword" />
+
+                <TextView
+                    style="@style/msg_text"
+                    android:text="아이디를 입력해주세요" />
+
+            </FrameLayout>
+
+
+            <FrameLayout style="@style/input_wrap">
+
+                <TextView
+                    style="@style/label_txt"
+                    android:text="Password Cheak" />
+
+                <EditText
+                    android:id="@+id/pwdCheckEt"
+                    style="@style/normal_et"
+                    android:hint="Password"
+                    android:inputType="textPassword" />
+
+                <TextView
+                    style="@style/msg_text"
+                    android:text="아이디를 입력해주세요" />
+            </FrameLayout>
+
+
+            <FrameLayout style="@style/input_wrap">
+
+                <TextView
+                    style="@style/label_txt"
+                    android:text="Gender" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edit_back"
+                    android:gravity="center">
+
+                    <TextView
+                        style="@style/gender_text"
+                        android:text="Man" />
+
+                    <View
+                        style="@style/gender_icon"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/ic_male" />
+
+                    <TextView
+                        style="@style/gender_text"
+                        android:text="Woman" />
+
+                    <View
+                        style="@style/gender_icon"
+                        android:background="@drawable/ic_female" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout style="@style/input_wrap">
+
+                <TextView
+                    style="@style/label_txt"
+                    android:text="Profilee" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edit_back"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/profileView"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/base" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".8" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline">
+
+        <Button
+            android:id="@+id/signBtn"
+            style="@style/btnStyle_normal"
+            android:background="@drawable/btn_second"
+            android:text="Sign Up" />
+
+        <Button
+            android:id="@+id/cancelBtn"
+            style="@style/btnStyle_normal"
+            android:background="@drawable/btn_second"
+            android:text="Cancel" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
